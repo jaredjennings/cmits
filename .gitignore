@@ -1,0 +1,13 @@
+compliance.csv
+*.aux
+generated_*.tex
+generated_per_iac_output
+*.bbl
+*.blg
+*.idx
+*.ilg
+*.ind
+*.out
+cmits-example/unified-policy-document/main.pdf
+*.toc
+*.log
