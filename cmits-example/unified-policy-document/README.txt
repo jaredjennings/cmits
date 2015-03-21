@@ -10,12 +10,16 @@ You will need:
 * Python 2.6 or later (but not yet 3.x)
 * TeX and LaTeX. Under Windows, use MiKTeX or ProTeXt. Under Linux, use
   TeXLive or the older teTeX.
-* the iadoc and iacic LaTeX packages installed
-* Shaney
+* the cyber_ and cybercic_ LaTeX packages installed
+* Shaney_
 
-If everything is in order, run make.py or make.pyw with Python 2.6. To clean,
-run clean.py with Python 2.6. Under Windows, you can double-click the files to
-run them. Under Linux, you'll likely use the command line. Examples::
+If everything is in order, run make.py or make.pyw. To clean, run
+clean.py. Under Windows, you can double-click the files to run
+them. Under Linux, you'll likely use the command line. Examples::
 
-    python2.6 make.py
-    python2.6 clean.py
+    python make.py
+    python clean.py
+
+.. _cyber: https://github.com/jaredjennings/latex-cyber
+.. _cybercic: https://github.com/jaredjennings/latex-cybercic
+.. _Shaney: https://github.com/jaredjennings/shaney
