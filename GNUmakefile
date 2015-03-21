@@ -30,10 +30,10 @@ $B/cmits-example.pdf: cmits-example/unified-policy-document/main.pdf
 	cp $< $@
 
 cmits-example/unified-policy-document/main.pdf:
-	cd cmits-example/unified-policy-document; python2.6 make.py
+	$(MAKE) -C cmits-example/unified-policy-document all
 
 clean:
 	rm -f $(B_FILES)
-	cd cmits-example/unified-policy-document; python2.6 clean.py
+	$(MAKE) -C cmits-example/unified-policy-document clean
 
 .PHONY: clean
