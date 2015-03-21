@@ -17,7 +17,6 @@
 \usepackage{url}
 \usepackage{cite}
 \usepackage{verbatim}
-\usepackage{multind}
 \usepackage{color}
 
 % Leave more room in the table of contents for section numbers, because in
@@ -72,9 +71,11 @@
 \usepackage{cybercic}
 \def\iamarginsize{\scriptsize}
 
-\makeindex{g}
-\makeindex{class}
-\makeindex{define}
+\newindex{default}{default.idx}{default.ind}{Default Index}
+\newindex{g}{general.idx}{general.ind}{General Index}
+\newindex{class}{classes.idx}{classes.ind}{Classes}
+\newindex{define}{defines.idx}{defines.ind}{Defined Resource Types}
+\newindex{file}{files.idx}{files.ind}{Files}
 
 
 % Make marginpars show up on the correct side of the page.
