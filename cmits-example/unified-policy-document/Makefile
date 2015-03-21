@@ -14,9 +14,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 all:
-	python2.6 make.py
+	python make.py
 
 clean:
-	python2.6 clean.py
+	python clean.py
 
 .PHONY: all clean
