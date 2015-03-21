@@ -18,7 +18,7 @@
 class network::stig::darwin {
 # First ensure that sysctl.conf exists; the STIG implies that it may not.
 #
-# \index{g}{FIXME}%
+# \index{FIXME}%
 # For least surprise for policy maintainers, this should probably go in a more
 # generic module than ``network.''
     file { '/etc/sysctl.conf':

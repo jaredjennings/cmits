@@ -33,7 +33,7 @@ class nis::no_pluses {
         }
     }
 
-# \index{unixsrg}{Per-user .rhosts and .shosts files}
+# \index{Per-user .rhosts and .shosts files}
 #
 # \implements{unixsrg}{GEN001980} Make sure there are no pluses in system
 # authentication data files, causing possibly insecure NIS lookups.

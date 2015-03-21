@@ -27,7 +27,7 @@ class ssh::stig_palatable {
     augeas { "sshd_stig":
         context => "/files${ssh::server_config}",
         changes => [
-# \index{unixsrg}{GEN001020!over SSH|see{GEN001120}}
+# \indexhelper{unixsrg}{over SSH|see {GEN} 001120, }{GEN001020}
 #
 # \implements{unixsrg}{GEN001020,GEN001100,GEN001120}%
 # \implements{macosxstig}{OSX00165 M6}%

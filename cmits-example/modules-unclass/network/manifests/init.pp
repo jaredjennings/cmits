@@ -38,7 +38,7 @@ class network {
 # i.e. where it is ``not needed.''
 #
 # The DHCP client is configured not to send dynamic DNS updates, surprisingly,
-# in \S\ref{class_eue::dns}. \index{unixsrg}{FIXME}
+# in \S\ref{class_eue::dns}. \index{FIXME}
 #
 #
 # \subsection{Admin guidance regarding networking}

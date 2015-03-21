@@ -25,7 +25,7 @@ class stig_misc::man_page_files {
 
     $man_page_dirs = ['/usr/share/man']
 
-# \index{g}{portability}%
+# \index{portability}%
 # We use the \verb!-perm +! syntax for \verb!find! even though it is deprecated
 # by GNU find, because Mac OS X's \verb!find! doesn't understand the
 # recommended \verb!-perm /! syntax.
