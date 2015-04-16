@@ -29,7 +29,6 @@ class mimetypes {
 # This define will help us insert MIME types below. It is only useful in the
 # case where there is a single file extension given for the MIME type.
     define mimetype($ext) {
-        require augeas
         # mimetype_$name may be more correct but too long to be wieldy.
         augeas { "mimetype_for_$ext":
             # incl + lens instead of context "greatly speeds up execution"
