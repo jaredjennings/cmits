@@ -16,8 +16,6 @@
 # \subsection{Remove passwords from gshadow}
 
 class passwords::no_gshadow {
-# We require a custom lens.
-    include augeas
 # \implements{rhel5stig}{GEN000000-LNX001476} Disable group passwords.
 #
 # Although \verb!gshadow(5)! says that a password only needs to start with a
@@ -31,6 +29,8 @@ class passwords::no_gshadow {
                 changes => [
                     'set */password "!!"',
                 ],
+	        incl => '/etc/gshadow',
+		lens => 'Gshadow.lns',
             }
         }
         default: { unimplemented() }
