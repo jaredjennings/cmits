@@ -27,6 +27,8 @@ class subversion::pki::trust_cas {
 # semicolons, with no spaces in between them.
             "set ssl-authority-files \
 /etc/pki/tls/cacerts/DoD-Root2-Root.crt",
+	lens => 'Subversion.lns',
+	incl => '/etc/subversion/servers',
         ],
     }
 }

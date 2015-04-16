@@ -25,7 +25,4 @@ class subversion::servers_config {
         ensure => present,
         owner => root, group => 0, mode => 0644,
     }
-
-# We require a custom lens because Augeas doesn't ship with one for Subversion.
-    include augeas
 }

@@ -32,5 +32,7 @@ class subversion::pki::use_smartcard::no {
         changes => [
             "rm ssl-pkcs11-provider",
         ],
+	lens => 'Subversion.lns',
+	incl => '/etc/subversion/servers',
     }
 }
