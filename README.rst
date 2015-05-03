@@ -7,6 +7,13 @@ IT systems in compliance with U.S. Department of Defense requirements, and to
 document that compliance as automatically as possible, at several levels of
 detail.
 
+This repository will grow smaller as pieces of the code are split out
+to work on their own. For example, iadoc has been split out to
+https://github.com/jaredjennings/latex-cyber, iacic to
+https://github.com/jaredjennings/latex-cybercic, Shaney to
+https://github.com/jaredjennings/shaney, and the mac_plist_value
+module to https://github.com/jaredjennings/puppet-mac_plist_value.
+
 CMITS contains many Puppet modules that implement portions of compliance with
 about 1000 requirements from nine DoD-level policy documents. These modules
 make it easier for administrators to construct a complete Puppet `manifest`
