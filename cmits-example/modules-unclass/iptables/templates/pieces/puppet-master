@@ -1,5 +1,0 @@
-# Puppet master.
-<% site_subnets.each do |subnet| %>
--A INPUT -s <%=subnet-%> -p tcp --dport 8140 -m state --state NEW -j ACCEPT
-<% end %>
-

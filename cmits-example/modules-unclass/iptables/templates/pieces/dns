@@ -1,4 +1,0 @@
-# DNS client
--A INPUT -p udp -m udp --sport domain -j ACCEPT
--A OUTPUT -p udp -m udp --dport domain -j ACCEPT
-

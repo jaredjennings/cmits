@@ -1,0 +1,3 @@
+[submodule "cmits-example/unclass"]
+	path = cmits-example/unclass
+	url = git@github.com:jaredjennings/cmits-unclass.git

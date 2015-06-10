@@ -1,3 +1,0 @@
-<% site_subnets.each do |subnet| %>
--A OUTPUT -m tcp -p tcp -d <%=subnet-%> --dport 80 -j ACCEPT
-<% end %>

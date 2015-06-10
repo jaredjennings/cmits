@@ -1,3 +1,0 @@
--A INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
--A OUTPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
-

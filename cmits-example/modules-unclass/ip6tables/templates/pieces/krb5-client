@@ -1,2 +1,0 @@
--A OUTPUT -p tcp -m tcp --dport 88 -j ACCEPT
-
